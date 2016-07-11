@@ -48,15 +48,13 @@ class Picture extends CI_Controller {
 			$config['upload_path']		= './assets/image/';
 			// $config['filename']			= $name;
 			 $config['allowed_types']    = 'gif|jpg|png';
-        $config['max_size']         = '1000';
-        $config['max_width']        = '1024';
-        $config['max_height']       = '768';
+                        $config['max_size']         = '1000';
+                        $config['max_width']        = '1024';
+                        $config['max_height']       = '768';
 			$this->load->library('upload', $config);
 			
 			if(! $this->upload->do_upload('photo'))
 			{
-				// var_dump($this->upload->do_upload('image'));
-				// die();
 				$error = array('error' => $this->upload->display_errors());
 				$this->session->set_flashdata('notif', $error);
 				redirect(site_url('picture/index'), 'refresh');

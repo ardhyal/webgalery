@@ -43,87 +43,85 @@
             </div> -->
 <!-- <br/> -->
           <div class="container">
-            <div class="row">
-               <!--  <nav id="filter" class="col-md-12 text-center">
-                    <ul>
-                        <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></div>
-                        <li><a href="#" class="btn-theme btn-small" data-filter=".webdesign">Web Design</a></div>
-                        <li><a href="#" class="btn-theme btn-small" data-filter=".photography">Photography</a></div>
-                        <li><a href="#" class="btn-theme btn-small" data-filter=".print">Print</a></div>
-                    </ul>
-                </nav> -->
-                <div class="col-md-12">
+            <div class="row col-md-12">
+                <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="row">
-                        <div class="portfolio-items isotopeWrapper clearfix" id="3">
-                            <div class="col-sm-3">
-                                <!-- <div class="portfolio-item"> -->
-                                    <img src="assets/image/avatar.png" alt="" />
-                                    
-                                <!-- </div> -->
-                            </div>
-
-                            <div class="col-sm-3">
-                                <!-- <div class="portfolio-item"> -->
-                                    <img src="assets/image/avatar.png" alt="" />
-                                    
-                                <!-- </div> -->
-                            </div>
-
-
-                            <div class="col-sm-3">
-                                <!-- <div class="portfolio-item"> -->
-                                    <img src="assets/image/avatar.png" alt="" />
-                                    
-                                <!-- </div> -->
-                            </div>
-
-                            <div class="col-sm-3">
-                                <!-- <div class="portfolio-item"> -->
-                                    <img src="assets/image/avatar.png" alt="" />
-                                    
-                                <!-- </div> -->
-                            </div>
-
-                            <div class="col-sm-3">
-                                <!-- <div class="portfolio-item"> -->
-                                    <img src="assets/image/avatar.png" alt="" />
-                                    
-                                <!-- </div> -->
-                            </div>
-
-                            <div class="col-sm-3">
-                                <!-- <div class="portfolio-item"> -->
-                                    <img src="assets/image/avatar.png" alt="" />
-                                    
-                                <!-- </div> -->
-                            </div>
-
-                            <div class="col-sm-3">
-                                <!-- <div class="portfolio-item"> -->
-                                    <img src="assets/image/avatar.png" alt="" />
-                                    
-                                <!-- </div> -->
-                            </div>
-
-                            <div class="col-sm-3">
-                                <!-- <div class="portfolio-item"> -->
-                                    <img src="assets/image/avatar.png" alt="" />
-                                    
-                                <!-- </div> -->
-                            </div>
-
-                            <div class="col-sm-3">
-                                <!-- <div class="portfolio-item"> -->
-                                    <img src="assets/image/avatar.png" alt="" />
-                                    
-                                <!-- </div> -->
-                            </div>
-                            
+                        <div class="thumbnail">
+                            <img src="<?php echo base_url()?>assets/image/avatar.png" alt="Generic Placeholder Thumbnail" width="128" height="128">
                         </div>
-
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>Some sample text. Some sample text.</p>
+                            <a href="#" class="btn btn-primary" role="button">button</a>
+                            <a href="#" class="btn btn-default" role="button">button</a>
+                        </div>    
                     </div>
-
-
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                    <div class="row">
+                        <div class="thumbnail">
+                            <img src="<?php echo base_url()?>assets/image/avatar.png" alt="Generic Placeholder Thumbnail" width="128" height="128">
+                        </div>
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>Some sample text. Some sample text.</p>
+                            <a href="#" class="btn btn-primary" role="button">button</a>
+                            <a href="#" class="btn btn-default" role="button">button</a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                    <div class="row">
+                        <div class="thumbnail">
+                            <img src="<?php echo base_url()?>assets/image/avatar.png" alt="Generic Placeholder Thumbnail" width="128" height="128">
+                        </div>
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>Some sample text. Some sample text.</p>
+                            <a href="#" class="btn btn-primary" role="button">button</a>
+                            <a href="#" class="btn btn-default" role="button">button</a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                    <div class="row">
+                        <div class="thumbnail">
+                            <img src="<?php echo base_url()?>assets/image/avatar.png" alt="Generic Placeholder Thumbnail" width="128" height="128">
+                        </div>
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>Some sample text. Some sample text.</p>
+                            <a href="#" class="btn btn-primary" role="button">button</a>
+                            <a href="#" class="btn btn-default" role="button">button</a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                    <div class="row">
+                        <div class="thumbnail">
+                            <img src="<?php echo base_url()?>assets/image/avatar.png" alt="Generic Placeholder Thumbnail" width="128" height="128">
+                        </div>
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>Some sample text. Some sample text.</p>
+                            <a href="#" class="btn btn-primary" role="button">button</a>
+                            <a href="#" class="btn btn-default" role="button">button</a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                    <div class="row">
+                        <div class="thumbnail">
+                            <img src="<?php echo base_url()?>assets/image/avatar.png" alt="Generic Placeholder Thumbnail" width="128" height="128">
+                        </div>
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>Some sample text. Some sample text.</p>
+                            <a href="#" class="btn btn-primary" role="button">button</a>
+                            <a href="#" class="btn btn-default" role="button">button</a>
+                        </div>    
+                    </div>
+                </div>
                 </div>
             </div>
 
